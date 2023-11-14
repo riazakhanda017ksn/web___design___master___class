@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif 
+}
+
+.navbar{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background: black;
+   color: white;
+  
+}
+
+.nav-item a{
+ color: rgb(255, 255, 255);
+ padding-right: 22px;
+ text-decoration: none;
+ 
+}
+
+.logo h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 26px;
+}
+
+
+/* banner css */
+
+.banner{
+    padding: 180px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #767676;
+}
+
+.banner button{
+    padding: 18px 35px;
+    font-size: 18px;
+    font-family: 'Dancing Script', cursive;
+    border: 2px solid black;
+    margin-top: 10px;
+    background: black;
+    color: white;
+
+}
+
+.banner button:hover{
+    background: none;
+    color: black;
+}
